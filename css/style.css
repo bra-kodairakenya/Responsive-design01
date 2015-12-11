@@ -1,0 +1,19 @@
+#header {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  padding-top: 20px;
+  background-color: #000; }
+  #header .menuButton {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 10px; }
+    #header .menuButton .menuButtonBar {
+      display: block;
+      width: 40px;
+      height: 5px;
+      background-color: #FFF;
+      margin-bottom: 10px; }
+      #header .menuButton .menuButtonBar:last-child {
+        margin-bottom: 0; }
