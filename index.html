@@ -2,74 +2,78 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<link rel="stylesheet" type="text/css" href="reset.css">
+<link rel="stylesheet" type="text/css" href="css/reset.css">
 <link rel="stylesheet" type="text/css" href="css/style.css">
+<!--[if lt IE 9]>
+  <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+  <script src=”http://html5shiv-printshiv.googlecode.com/svn/trunk/html5shiv-printshiv.js”></script>
+  <![endif]-->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js?ver=3.8.1"></script>
+  <script type="text/javascript" src="js/min/navbar-min.js"></script>
 <title>HTML5サンプル</title>
 </head>
 <body>
-    <!== header ==>
-    <header id="header">
-        <a href="" class="menuButton">
-            <span class="menuButtonBar"></span>
-            <span class="menuButtonBar"></span>
-            <span class="menuButtonBar"></span>
-        </a>
-    </header>
-    <!== top ==>
-    <div class="top visual">
-        <div class="contentInner">
-            <p>A Bootstrap 3 One Page Theme.</p>
-            <p>Exclusive for BlackTie co.</p>
-        </div>
-    </div>
-    <div class="contentInner">
-        <section>
-            <img src="">
-            <h2>Bootstrap 3</h2>
-            <p>Shield Theme is powered by Bootstrap 3. The incredible Mobile First Framework is the best option to run your website.</p>
-        </section>
-        <section>
-            <img src="">
-            <h2>Retina Ready</h2>
-            <p>You can use this theme with your iPhone, iPad or MacBook Pro. This theme is retina ready and that is awesome.</p>
-        </section>
-        <section>
-            <img src="">
-            <h2>Crafted with Love</h2>
-            <p>We don't make sites, we craft themes with love & passion. That is our most valued secret. We only do thing that we love.</p>
-        </section>
-    </div>
-    <!== design ==>
-    <div class="design visual">
-        <div class="contentInner">
-            <h2>DESIGN EXPAND BOUNDARIES</h2>
-            <p>To achieve real change, we have to expand boundaries. Because the Wild West of what-could-be is unexplored but rife with opportunity.</p>
-        </div>
-    </div>
-    <div class="contentInner">
-        <h3>ONE BRAND, ONE VOICE.</h3>
-        <p>Employees and consumers. Two halves of a brand’s entirety, the whole of a brand’s audience. Sometimes these two halves have very different viewpoints, creating a weak spot in the brand story. Weakness tarnishes credibility. Brands that aren’t credible aren’t viable.
+  <!== header ==>
+  <header id="header" class="layoutInner">
+    <ul class="menu">
+      <li class="menuInner"><a href="">メニュー</a></li>
+      <li class="menuInner"><a href="">メニュー</a></li>
+      <li class="menuInner"><a href="">メニュー</a></li>
+      <li class="menuInner"><a href="">メニュー</a></li>
+    </ul>
+    <a href="" class="menuButton">
+      <span class="menuButtonBar"></span>
+      <span class="menuButtonBar"></span>
+      <span class="menuButtonBar"></span>
+    </a>
+  </header>
+  <!== top ==>
+  <div id="topVisual" class="visual layoutInner">
+    <h2>A Bootstrap 3 One Page Theme.</h2>
+    <p>Exclusive for BlackTie co.</p>
+  </div>
+  <div id="service" class="content layoutInner">
+    <section>
+      <img src="">
+      <h2>Bootstrap 3</h2>
+      <p>Shield Theme is powered by Bootstrap 3. The incredible Mobile First Framework is the best option to run your website.</p>
+    </section>
+    <section>
+      <img src="">
+      <h2>Retina Ready</h2>
+      <p>You can use this theme with your iPhone, iPad or MacBook Pro. This theme is retina ready and that is awesome.</p>
+    </section>
+    <section>
+      <img src="">
+      <h2>Crafted with Love</h2>
+      <p>We don't make sites, we craft themes with love & passion. That is our most valued secret. We only do thing that we love.</p>
+    </section>
+  </div>
+  <!== design ==>
+  <div id="design" class="visual layoutInner">
+    <h2>DESIGN EXPAND BOUNDARIES</h2>
+    <p>To achieve real change, we have to expand boundaries. Because the Wild West of what-could-be is unexplored but rife with opportunity.</p>
+  </div>
+  <div id="mission" class="content layoutInner">
+    <h2>ONE BRAND, ONE VOICE.</h2>
+    <hr>
+    <p>Employees and consumers. Two halves of a brand’s entirety, the whole of a brand’s audience. Sometimes these two halves have very different viewpoints, creating a weak spot in the brand story. Weakness tarnishes credibility. Brands that aren’t credible aren’t viable.</p>
+    <p>We squash weakness by designing the whole brand story. It’s crafted around the truism held by employees and consumers to create an experience that connects from the inside out.</p>
 
-We squash weakness by designing the whole brand story. It’s crafted around the truism held by employees and consumers to create an experience that connects from the inside out.
-
-By being true to the brand we represent, we elevate the audiences’ relationship to it. Like becomes love becomes a passion. Passion becomes advocacy. And we see the brand blossom from within, creating a whole story the audience embraces. That’s when the brand can truly flex its muscles.</p>
-    </div>
-    <!== about ==>
-    <div class="about visual">
-        <div class="contentInner">
-            <h2>DESIGN IS AN INTERACTION</h2>
-            <p>To develop a deeper and more meaningful connection with consumers, we believe design must invite them to take part in the conversation.</p>
-        </div>
-    </div>
-    <div class="contentInner">
-        <h3>MEET OUR AWESOME TEAM</h3>
-        <p>Jaye began making websites when animated logos and scrolling text were cool, but has since found a love for simplicity, creating websites that are a pleasure to browse. Monkey Island Fan.</p>
-    </div>
-    <!== footer ==>
-    <footer id="footer">
-        <div class="footerInner">
-            <p>Created by <span>BlackTie.co</span> - Copyright 2014</p>
-        </div>
-    </footer>
+    <p>By being true to the brand we represent, we elevate the audiences’ relationship to it. Like becomes love becomes a passion. Passion becomes advocacy. And we see the brand blossom from within, creating a whole story the audience embraces. That’s when the brand can truly flex its muscles.</p>
+  </div>
+  <!== about ==>
+  <div id="about" class="visual layoutInner">
+    <h2>DESIGN IS AN INTERACTION</h2>
+    <p>To develop a deeper and more meaningful connection with consumers, we believe design must invite them to take part in the conversation.</p>
+  </div>
+  <div id="team" class="content layoutInner">
+    <h2>MEET OUR AWESOME TEAM</h2>
+    <p>Jaye began making websites when animated logos and scrolling text were cool, but has since found a love for simplicity, creating websites that are a pleasure to browse. Monkey Island Fan.</p>
+  </div>
+  <!== footer ==>
+  <footer id="footer" class="layoutInner">
+    <p class="copyright">Created by <span>BlackTie.co</span> - Copyright 2014</p>
+  </footer>
 </body>
 </html>
