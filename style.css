@@ -10,11 +10,22 @@
 #header .menu {
   display: none;
   position: absolute;
-  top: 20px;
-  right: 10px;
+  top: 70px;
+  right: 0;
+  width: 120px;
+  height: 50px;
+  background-color: #FFF;
 }
 #header .menu .menuInner {
+  text-align: center;
+  height: 30px;
+  padding-top: 15px;
+  background-color: #000;
+  list-style: none;
+}
+#header .menu .menuInner a {
   color: #FFF;
+  text-decoration: none;
 }
 #header .menuButton {
   display: block;
