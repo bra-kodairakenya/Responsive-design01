@@ -77,6 +77,7 @@
   text-align: center;
   section {
     display: table-cell;
+    width: calc(100% / 3);
     vertical-align: top;
     padding: 20px 10px;
     h2 {
@@ -135,6 +136,7 @@
   }
   p {
     display: table-cell;
+    width: calc(100% / 3);
     padding: 0 10px;
     letter-spacing: 0.02em;
     line-height: 150%;

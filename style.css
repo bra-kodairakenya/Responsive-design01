@@ -388,6 +388,7 @@ input, select {
   }
   #topContent section {
     display: table-cell;
+    width: calc(100% / 3);
     vertical-align: top;
     padding: 20px 10px;
   }
@@ -443,6 +444,7 @@ input, select {
   }
   #middleContent p {
     display: table-cell;
+    width: calc(100% / 3);
     padding: 0 10px;
     letter-spacing: 0.02em;
     line-height: 150%;
