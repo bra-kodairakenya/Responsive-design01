@@ -54,7 +54,7 @@
 }
 
 #topVisual {
-  background-image: url("images/download.jpg");
+  background-image: url("images/topview.jpg");
   margin-top: 70px;
   h2 {
     text-align: center;
@@ -78,7 +78,7 @@
   }
 }
 
-#service {
+#topContent {
   text-align: center;
   section {
       padding: 20px 0;
@@ -96,8 +96,8 @@
   }
 }
 
-#design {
-  background-image: url("images/9k=.jpg");
+#middleVisual {
+  background-image: url("images/middleview.jpg");
   text-align: center;
    h2 {
     text-align: center;
@@ -119,7 +119,7 @@
   }
 }
 
-#mission {
+#middleContent {
   h2 {
     text-align: center;
     font-size: 150%;
@@ -143,12 +143,12 @@
   }
 }
 
-#about {
-  background-image: url("images/aaa.jpg");
+#footerVisual {
+  background-image: url("images/footerview.jpg");
   h2 {
     text-align: center;
     padding: 100px 0 20px 0;
-    font-size: 220%;
+    font-size: 150%;
     color: #FFF;
     font-weight: 200;
     line-height: 130%;
@@ -164,7 +164,7 @@
   }
   p {
     text-align: center;
-    font-size: 120%;
+    font-size: 110%;
     color: #FFF;
     font-weight: 200;
     line-height: 140%;
@@ -172,7 +172,7 @@
   }
 }
 
-#team {
+#footerContent {
   text-align: center;
   h2 {
     font-size: 150%;

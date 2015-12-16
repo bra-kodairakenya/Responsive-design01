@@ -1,3 +1,105 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 0;
+  padding: 0;
+}
+
+input, select {
+  vertical-align: middle;
+}
+
 #header {
   position: fixed;
   top: 0;
@@ -77,7 +179,7 @@
   }
 
   #topVisual {
-    background-image: url("images/download.jpg");
+    background-image: url("images/topview.jpg");
     margin-top: 70px;
   }
   #topVisual h2 {
@@ -100,29 +202,29 @@
     text-shadow: 3px 3px 3px #000;
   }
 
-  #service {
+  #topContent {
     text-align: center;
   }
-  #service section {
+  #topContent section {
     padding: 20px 0;
   }
-  #service section h2 {
+  #topContent section h2 {
     font-size: 150%;
     color: #4C4C4C;
     font-weight: 200;
     letter-spacing: 0.02em;
     padding-bottom: 20px;
   }
-  #service section p {
+  #topContent section p {
     letter-spacing: 0.02em;
     line-height: 150%;
   }
 
-  #design {
-    background-image: url("images/9k=.jpg");
+  #middleVisual {
+    background-image: url("images/middleview.jpg");
     text-align: center;
   }
-  #design h2 {
+  #middleVisual h2 {
     text-align: center;
     padding: 100px 0 50px 0;
     font-size: 200%;
@@ -131,7 +233,7 @@
     line-height: 120%;
     letter-spacing: 0.1em;
   }
-  #design p {
+  #middleVisual p {
     text-align: center;
     font-size: 120%;
     color: #FFF;
@@ -140,7 +242,7 @@
     letter-spacing: 0.1em;
   }
 
-  #mission h2 {
+  #middleContent h2 {
     text-align: center;
     font-size: 150%;
     color: #4C4C4C;
@@ -148,7 +250,7 @@
     letter-spacing: 0.02em;
     padding-bottom: 20px;
   }
-  #mission hr {
+  #middleContent hr {
     display: block;
     width: 100px;
     height: 1px;
@@ -156,25 +258,25 @@
     margin: 0 auto;
     border-top: 2px solid #4C4C4C;
   }
-  #mission p {
+  #middleContent p {
     letter-spacing: 0.02em;
     line-height: 150%;
     padding-bottom: 20px;
   }
 
-  #about {
-    background-image: url("images/aaa.jpg");
+  #footerVisual {
+    background-image: url("images/footerview.jpg");
   }
-  #about h2 {
+  #footerVisual h2 {
     text-align: center;
     padding: 100px 0 20px 0;
-    font-size: 220%;
+    font-size: 150%;
     color: #FFF;
     font-weight: 200;
     line-height: 130%;
     letter-spacing: 0.1em;
   }
-  #about hr {
+  #footerVisual hr {
     display: block;
     width: 150px;
     height: 1px;
@@ -182,26 +284,26 @@
     margin: 0 auto;
     border-top: 2px solid #FFF;
   }
-  #about p {
+  #footerVisual p {
     text-align: center;
-    font-size: 120%;
+    font-size: 110%;
     color: #FFF;
     font-weight: 200;
     line-height: 140%;
     letter-spacing: 0.1em;
   }
 
-  #team {
+  #footerContent {
     text-align: center;
   }
-  #team h2 {
+  #footerContent h2 {
     font-size: 150%;
     color: #4C4C4C;
     font-weight: 200;
     letter-spacing: 0.02em;
     padding-bottom: 20px;
   }
-  #team p {
+  #footerContent p {
     letter-spacing: 0.02em;
     line-height: 150%;
   }
@@ -258,7 +360,7 @@
   }
 
   #topVisual {
-    background-image: url("images/download.jpg");
+    background-image: url("images/topview.jpg");
     margin-top: 70px;
   }
   #topVisual h2 {
@@ -281,31 +383,31 @@
     text-shadow: 3px 3px 3px #000;
   }
 
-  #service {
+  #topContent {
     text-align: center;
   }
-  #service section {
+  #topContent section {
     display: table-cell;
     vertical-align: top;
     padding: 20px 10px;
   }
-  #service section h2 {
+  #topContent section h2 {
     font-size: 150%;
     color: #4C4C4C;
     font-weight: 200;
     letter-spacing: 0.02em;
     padding-bottom: 20px;
   }
-  #service section p {
+  #topContent section p {
     letter-spacing: 0.02em;
     line-height: 150%;
   }
 
-  #design {
-    background-image: url("images/9k=.jpg");
+  #middleVisual {
+    background-image: url("images/middleview.jpg");
     text-align: center;
   }
-  #design h2 {
+  #middleVisual h2 {
     text-align: center;
     padding: 100px 0 50px 0;
     font-size: 300%;
@@ -314,7 +416,7 @@
     line-height: 120%;
     letter-spacing: 0.1em;
   }
-  #design p {
+  #middleVisual p {
     text-align: center;
     font-size: 150%;
     color: #FFF;
@@ -323,7 +425,7 @@
     letter-spacing: 0.1em;
   }
 
-  #mission h2 {
+  #middleContent h2 {
     text-align: center;
     font-size: 200%;
     color: #4C4C4C;
@@ -331,7 +433,7 @@
     letter-spacing: 0.02em;
     padding-bottom: 20px;
   }
-  #mission hr {
+  #middleContent hr {
     display: block;
     width: 100px;
     height: 1px;
@@ -339,17 +441,17 @@
     margin: 0 auto;
     border-top: 2px solid #4C4C4C;
   }
-  #mission p {
+  #middleContent p {
     display: table-cell;
     padding: 0 10px;
     letter-spacing: 0.02em;
     line-height: 150%;
   }
 
-  #about {
-    background-image: url("images/aaa.jpg");
+  #footerVisual {
+    background-image: url("images/footerview.jpg");
   }
-  #about h2 {
+  #footerVisual h2 {
     text-align: center;
     padding: 100px 0 20px 0;
     font-size: 250%;
@@ -358,7 +460,7 @@
     line-height: 130%;
     letter-spacing: 0.1em;
   }
-  #about hr {
+  #footerVisual hr {
     display: block;
     width: 150px;
     height: 1px;
@@ -366,7 +468,7 @@
     margin: 0 auto;
     border-top: 2px solid #FFF;
   }
-  #about p {
+  #footerVisual p {
     text-align: center;
     font-size: 150%;
     color: #FFF;
@@ -375,17 +477,17 @@
     letter-spacing: 0.1em;
   }
 
-  #team {
+  #footerContent {
     text-align: center;
   }
-  #team h2 {
+  #footerContent h2 {
     font-size: 200%;
     color: #4C4C4C;
     font-weight: 200;
     letter-spacing: 0.02em;
     padding-bottom: 20px;
   }
-  #team p {
+  #footerContent p {
     font-size: 110%;
     letter-spacing: 0.02em;
     line-height: 150%;
